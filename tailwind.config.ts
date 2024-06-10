@@ -8,6 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        ivymodeLight: ['var(--font-ivymodeLight)'],
+        ailregular: ['var(--font-ailregular)'],
+        aillight: ['var(--font-aillight)'],
+        ailbold: ['var(--font-ailbold)'],
+        aillightitalic: ['var(--font-aillightitalic)'],
+      },
+      colors: {
+        primary: "#899F87",
+        secondary: "#E4ECE0",
+        tertiary: "#C8D8C0",
+        primarygray: "#213721",
+        secondarygray: "#F2F6EF",
+        boldgreen: "#3C5E39"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
