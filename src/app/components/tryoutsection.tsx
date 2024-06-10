@@ -3,7 +3,7 @@ import { Button2 } from "./button";
 
 const TryOutSection = () => {
   return (
-    <section className="bg-secondarygray lg:py-[96px] py-[64px] lg:px-20 px-4 flex lg:justify-between justify-center items-center md:flex-row flex-col lg:gap-[92px] gap-[48px]">
+    <section className="max-w-[1440px] mx-auto bg-secondarygray lg:py-[96px] py-[64px] lg:px-20 px-4 flex lg:justify-between justify-center items-center md:flex-row flex-col lg:gap-[92px] gap-[48px]">
       <div className="flex justify-center items-center flex-col text-primarygray w-[303.33px]">
         <Image
           src={"/logos/Happy Skin.svg"}

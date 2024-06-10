@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <section className="lg:pt-[46px] pt-[64px] lg:pb-[46px] pb-[64px] lg:px-20 px-4 bg-secondarygray flex justify-start items-center lg:flex-row flex-col lg:gap-[113px] gap-[48px] border-b-[1px] border-tertiary">
+    <section className="max-w-[1440px] mx-auto lg:pt-[46px] pt-[64px] lg:pb-[46px] pb-[64px] lg:px-20 px-4 bg-secondarygray flex justify-start items-center lg:flex-row flex-col lg:gap-[113px] gap-[48px] border-b-[1px] border-tertiary">
       <div className="bg-secondary rounded-[120%] w-[373px]">
         <Image
           className="lg:w-"

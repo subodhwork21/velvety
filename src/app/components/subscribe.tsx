@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Subscribe = () => {
   return (
-    <section className="px-20 py-10 bg-primary flex justify-center items-center lg:flex-row flex-col lg:gap-[80px] gap-[48px]">
+    <section className="max-w-[1440px] mx-auto px-20 py-10 bg-primary flex justify-center items-center lg:flex-row flex-col lg:gap-[80px] gap-[48px]">
       <p className="lg:text-[56px] text-[40px] font-ivymodeLight md:w-[691px] w-[343px] sm:w-[500px] text-white leading-tight">
         Subscribe to get 10% off your first order
       </p>

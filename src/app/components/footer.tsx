@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Footer = () => {
   return (
-    <section className="bg-secondarygray">
+    <section className="bg-secondarygray max-w-[1440px] mx-auto">
       <div className="flex justify-center lg:items-start items-center lg:flex-row flex-col border-b-[1px] border-tertiary">
         <div className="px-[37px] pt-[64px] pb-[42px] flex flex-col justify-center items-center lg:border-r-[1px] border-b-[1px] border-tertiary">
           <Image

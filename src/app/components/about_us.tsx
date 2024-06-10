@@ -2,7 +2,7 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <>
-      <section className="md:px-20 px-[16px] flex  text-start justify-start bg-secondarygray">
+      <section className="max-w-[1440px] mx-auto md:px-20 px-[16px] flex  text-start justify-start bg-secondarygray">
         <div className="border-b-[1px] border-secondary grid md:grid-cols-2 grid-cols-1 md:py-[96px] py-[64px] md:gap-[26px] gap-[32px]">
           <div className="md:gap-4 gap-[26px] text-[24px] md:text-[28px] font-aillight">
             <p className="text-primary">About us</p>
@@ -26,7 +26,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <section className="lg:py-[96px] py-[64px] lg:px-20 px-6 bg-secondarygray">
+      <section className="max-w-[1440px] mx-auto lg:py-[96px] py-[64px] lg:px-20 px-6 bg-secondarygray">
         <div>
           <p className="pb-10 lg:text-[28px] text-[24px] text-primary">
             As Seen in

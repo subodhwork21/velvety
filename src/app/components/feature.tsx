@@ -66,7 +66,7 @@ const Feature = () => {
           </div>
         </div>
       </section>
-      <section className="min-w-[313.95px] lg:px-[313.95px] px-[16px] mx-auto text-center lg:pt-[96px] pt-[64px] lg:pb-[56px] pb-[48px] leading-tight border-b-[1px] border-secondary bg-secondarygray">
+      <section className="max-w-[1440px] min-w-[313.95px] lg:px-[313.95px] px-[16px] mx-auto text-center lg:pt-[96px] pt-[64px] lg:pb-[56px] pb-[48px] leading-tight border-b-[1px] border-secondary bg-secondarygray">
         <p className="lg:text-[28px] text-[24px] font-aillight text-primary mb-4">
           Our featured products
         </p>

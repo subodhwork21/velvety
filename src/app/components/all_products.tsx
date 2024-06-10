@@ -4,7 +4,7 @@ import { Button2 } from "./button";
 
 const AllProducts = () => {
   return (
-    <section>
+    <section className="max-w-[1440px] mx-auto">
       <div className="lg:px-20 px-4 py-10 bg-primary flex lg:justify-between justify-start items-start gap-6 lg:gap-0 lg:items-center lg:flex-row flex-col">
         <p className="font-ivymodeLight lg:text-[40px] text-[38px] text-secondarygray">
           Let us see the processing of our products
