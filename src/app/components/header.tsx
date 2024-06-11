@@ -3,6 +3,17 @@ import Image from "next/image";
 import Hero from "./hero";
 import { Button3 } from "./button";
 import { useState } from "react";
+import React from "react";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu";
 
 const Header = () => {
   const [navhide, setNavHide] = useState(true);
@@ -18,16 +29,43 @@ const Header = () => {
             height={44}
           />
           <ul className="flex justify-center items-center md:gap-12 gap-4 font-ailregular uppercase">
-            <li className="text-white text-[16px] cursor-pointer md:block hidden">
-              <span>Pages</span>
-              <Image
-                className="inline-block align-center ml-[8px]"
-                src={"/logos/arrow-down.png"}
-                alt="arrow-down"
-                width={20}
-                height={20}
-              />
-            </li>
+            {/* <li className="text-[16px] cursor-pointer md:block hidden"> */}
+            <NavigationMenu className="bg-transparent">
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className="bg-transparent uppercase text-white text-[16px] cursor-pointer md:flex hidden">
+                    {" "}
+                    Pages
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <NavigationMenuLink>
+                      <div className=" w-[400px] gap-3 p-4 md:w-[348px] grid grid-cols-2 font-ailregular text-[16px] text-boldgreen">
+                        <ul className="flex justify-start items-start gap-[24px] flex-col">
+                          <li>Home</li>
+                          <li>About</li>
+                          <li>Shop</li>
+                          <li>Product Details</li>
+                          <li>Checkout</li>
+                          <li>Checkout Paypal</li>
+                          <li>Blog</li>
+                          <li>Blog Detail</li>
+                        </ul>
+                        <ul className="flex justify-start items-start gap-[24px] flex-col">
+                          <li>Order Confirmation</li>
+                          <li>Licenses</li>
+                          <li>Changelog</li>
+                          <li>Contact Us</li>
+                          <li>404</li>
+                          <li>401</li>
+                          <li>Styleguide</li>
+                        </ul>
+                      </div>
+                    </NavigationMenuLink>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+            {/* </li> */}
             <li className="text-white text-[16px] cursor-pointer">Shop</li>
             <li className="text-white cursor-pointer md:block hidden">About</li>
             <li className="md:block hidden"></li>
@@ -85,16 +123,40 @@ const Header = () => {
               </div>
             </div>
             <ul className="mt-[20px] text-primarygray flex justify-left flex-col items-left w-full px-[20px] gap-[32px] pb-[230px]">
-              <li className=" text-[16px] cursor-pointer w-full flex justify-between items-center">
-                <span className="text-[32px]">Pages</span>
-                <Image
-                  className="inline-block align-center ml-[8px] invert"
-                  src={"/logos/arrow-down.png"}
-                  alt="arrow-down"
-                  width={36}
-                  height={36}
-                />
-              </li>
+              <NavigationMenu className="bg-transparent cursor-pointer mr-[20px] w-full relative right-4">
+                <NavigationMenuList>
+                  <NavigationMenuItem>
+                    <NavigationMenuTrigger className="bg-transparent uppercase text-primarygray text-[32px] cursor-pointer flex">
+                      Pages
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <NavigationMenuLink>
+                        <div className=" w-[400px] gap-3 p-4 md:w-[348px] grid grid-cols-2 font-ailregular text-[16px] text-boldgreen">
+                          <ul className="flex justify-start items-start gap-[24px] flex-col">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Shop</li>
+                            <li>Product Details</li>
+                            <li>Checkout</li>
+                            <li>Checkout Paypal</li>
+                            <li>Blog</li>
+                            <li>Blog Detail</li>
+                          </ul>
+                          <ul className="flex justify-start items-start gap-[24px] flex-col">
+                            <li>Order Confirmation</li>
+                            <li>Licenses</li>
+                            <li>Changelog</li>
+                            <li>Contact Us</li>
+                            <li>404</li>
+                            <li>401</li>
+                            <li>Styleguide</li>
+                          </ul>
+                        </div>
+                      </NavigationMenuLink>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                </NavigationMenuList>
+              </NavigationMenu>
               <li className=" text-[32px] cursor-pointer">Shop</li>
               <li className="text-[32px] cursor-pointer">About</li>
 
