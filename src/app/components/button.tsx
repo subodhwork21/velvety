@@ -47,4 +47,15 @@ const Button2 = ({ name, bgcolor, textColor, onClick }: Props) => {
     </div>
   );
 };
-export { Button1, Button2 };
+const Button3 = ({ name, bgcolor, textColor, onClick }: Props) => {
+  return (
+    <div>
+      <button
+        className={`${bgcolor} ${textColor} border-[1px] border-primary font-ailregular text-[16px] md:text-[16px] w-[100%] h-[52px]`}
+      >
+        {name}
+      </button>
+    </div>
+  );
+};
+export { Button1, Button2, Button3 };

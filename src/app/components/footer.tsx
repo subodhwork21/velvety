@@ -2,8 +2,8 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <section className="bg-secondarygray max-w-[1440px] mx-auto">
-      <div className="flex justify-center lg:items-start items-center lg:flex-row flex-col border-b-[1px] border-tertiary">
-        <div className="px-[37px] pt-[64px] pb-[42px] flex flex-col justify-center items-center lg:border-r-[1px] border-b-[1px] border-tertiary">
+      <div className="flex justify-center lg:items-start items-center lg:flex-row flex-col">
+        <div className="px-[37px] pt-[64px] pb-[54px] flex flex-col justify-center items-center lg:border-r-[1px] border-b-[1px] border-tertiary">
           <Image
             src={"/logos/logo_black.svg"}
             width={174.37}
@@ -39,7 +39,7 @@ const Footer = () => {
             ></Image>
           </div>
         </div>
-        <div className="flex flex-col justify-start items-center px-[98.5px] lg:pt-[56px] pt-[32px] lg:pb-[101px] pb-[32px] text-primarygray font-ailregular text-[20px] lg:border-r-[1px] border-b-[1px] border-tertiary">
+        <div className="flex flex-col justify-start items-center px-[98.5px] lg:pt-[56px] pt-[32px] lg:pb-[101px] pb-[32px] text-primarygray font-ailregular text-[20px] lg:border-r-[1px]  border-b-[1px] border-tertiary">
           <p className="text-[28px] font-aillight text-primary mb-[24px]">
             Shop
           </p>
@@ -50,7 +50,7 @@ const Footer = () => {
           <p className="mb-[14px]">Auto Fragrances</p>
           <p className="mb-[14px]">Gifts</p>
         </div>
-        <div className="flex flex-col justify-start items-center px-[98.5px] lg:pt-[56px] pt-[32px] lg:pb-[101px] pb-[32px] text-primarygray font-ailregular text-[20px] lg:border-r-[1px] border-b-[1px] border-tertiary">
+        <div className="flex flex-col justify-start items-center px-[98.5px] lg:pt-[56px] pt-[32px] lg:pb-[56px] pb-[32px] text-primarygray font-ailregular text-[20px] lg:border-r-[1px] border-b-[1px] border-tertiary">
           <p className="text-[28px] font-aillight text-primary mb-[24px]">
             Help Desk
           </p>
@@ -73,7 +73,7 @@ const Footer = () => {
           <p className="mb-[14px]">Paris</p>
           <p className="mb-[14px]">Buenos Aires</p>
         </div>
-        <div className="flex justify-center items-center lg:gap-[105px] gap-[35px] lg:flex-col flex-row lg:h-[500px] h-[81px] text-[12px] lg:w-[40px] w-[202px] font-ailregular text-primarygray">
+        <div className="flex justify-center items-center lg:gap-[105px] gap-[35px] lg:flex-col flex-row lg:h-[500px] h-[81px] text-[12px] lg:w-[40px] w-[202px] font-ailregular text-primarygray ">
           <p className="lg:rotate-90 w-[77px] text-[12px]">SITE CREDITS</p>
           <p className="lg:rotate-90 w-[90px] text-[12px]">©2023 VELVETY</p>
         </div>
