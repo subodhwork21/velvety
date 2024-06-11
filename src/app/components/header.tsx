@@ -39,25 +39,25 @@ const Header = () => {
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <NavigationMenuLink>
-                      <div className=" w-[400px] gap-3 p-4 md:w-[348px] grid grid-cols-2 font-ailregular text-[16px] text-boldgreen">
+                      <div className=" w-[400px] gap-6 p-4 md:w-[348px] grid grid-cols-2 font-ailregular text-[16px] text-boldgreen">
                         <ul className="flex justify-start items-start gap-[24px] flex-col">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>Shop</li>
-                          <li>Product Details</li>
-                          <li>Checkout</li>
-                          <li>Checkout Paypal</li>
-                          <li>Blog</li>
-                          <li>Blog Detail</li>
+                          <li className="cursor-pointer">Home</li>
+                          <li className="cursor-pointer">About</li>
+                          <li className="cursor-pointer">Shop</li>
+                          <li className="cursor-pointer">Product Details</li>
+                          <li className="cursor-pointer">Checkout</li>
+                          <li className="cursor-pointer">Checkout Paypal</li>
+                          <li className="cursor-pointer">Blog</li>
+                          <li className="cursor-pointer">Blog Detail</li>
                         </ul>
                         <ul className="flex justify-start items-start gap-[24px] flex-col">
-                          <li>Order Confirmation</li>
-                          <li>Licenses</li>
-                          <li>Changelog</li>
-                          <li>Contact Us</li>
-                          <li>404</li>
-                          <li>401</li>
-                          <li>Styleguide</li>
+                          <li className="cursor-pointer">Order Confirmation</li>
+                          <li className="cursor-pointer">Licenses</li>
+                          <li className="cursor-pointer">Changelog</li>
+                          <li className="cursor-pointer">Contact Us</li>
+                          <li className="cursor-pointer">404</li>
+                          <li className="cursor-pointer">401</li>
+                          <li className="cursor-pointer">Styleguide</li>
                         </ul>
                       </div>
                     </NavigationMenuLink>
@@ -131,25 +131,27 @@ const Header = () => {
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                       <NavigationMenuLink>
-                        <div className=" w-[400px] gap-3 p-4 md:w-[348px] grid grid-cols-2 font-ailregular text-[16px] text-boldgreen">
+                        <div className=" w-[400px] gap-6 p-4 md:w-[348px] grid grid-cols-2 font-ailregular text-[16px] text-boldgreen">
                           <ul className="flex justify-start items-start gap-[24px] flex-col">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Shop</li>
-                            <li>Product Details</li>
-                            <li>Checkout</li>
-                            <li>Checkout Paypal</li>
-                            <li>Blog</li>
-                            <li>Blog Detail</li>
+                            <li className="cursor-pointer">Home</li>
+                            <li className="cursor-pointer">About</li>
+                            <li className="cursor-pointer">Shop</li>
+                            <li className="cursor-pointer">Product Details</li>
+                            <li className="cursor-pointer">Checkout</li>
+                            <li className="cursor-pointer">Checkout Paypal</li>
+                            <li className="cursor-pointer">Blog</li>
+                            <li className="cursor-pointer">Blog Detail</li>
                           </ul>
                           <ul className="flex justify-start items-start gap-[24px] flex-col">
-                            <li>Order Confirmation</li>
-                            <li>Licenses</li>
-                            <li>Changelog</li>
-                            <li>Contact Us</li>
-                            <li>404</li>
-                            <li>401</li>
-                            <li>Styleguide</li>
+                            <li className="cursor-pointer">
+                              Order Confirmation
+                            </li>
+                            <li className="cursor-pointer">Licenses</li>
+                            <li className="cursor-pointer">Changelog</li>
+                            <li className="cursor-pointer">Contact Us</li>
+                            <li className="cursor-pointer">404</li>
+                            <li className="cursor-pointer">401</li>
+                            <li className="cursor-pointer">Styleguide</li>
                           </ul>
                         </div>
                       </NavigationMenuLink>
