@@ -195,7 +195,7 @@ const AllProducts = () => {
               rating={5.0}
             />
             <SmallProductItem
-              image={"/images/inamorata.png"}
+              image={"/images/inamorato.png"}
               name="Classwing"
               price={20}
               type="rect"

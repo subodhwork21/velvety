@@ -87,16 +87,16 @@ const Header = () => {
           </ul>
         </nav>
         <nav
-          className={`flex justify-right items-center ${
+          className={`flex justify-right items-center bg-secondarygray ${
             navhide === true ? "block" : "block"
           }`}
         >
           <div
             className={`${
               navhide === true
-                ? "-top-[1000px] transition-all duration-500"
-                : "top-[0px] transition-all duration-500"
-            } ease-in-out left-0 items-center md:gap-12 gap-4 font-ivymodeLight fixed h-screen z-50 bg-secondarygray w-full`}
+                ? "-top-[1000px] transition-all duration-500 "
+                : "top-[0px] transition-all duration-500 "
+            } ease-in-out left-0 items-center md:gap-12 gap-4 font-ivymodeLight fixed h-auto z-50 bg-secondarygray w-full`}
           >
             <div className="py-4 px-4 flex justify-between items-center border-b-[1px] border-tertiary">
               <Image
@@ -122,7 +122,7 @@ const Header = () => {
                 ></Image>
               </div>
             </div>
-            <ul className="mt-[20px] text-primarygray flex justify-left flex-col items-left w-full px-[20px] gap-[32px] pb-[230px]">
+            <ul className="mt-[20px] text-primarygray flex justify-left flex-col items-left w-full px-[20px] gap-[32px] pb-[120px]">
               <NavigationMenu className="bg-transparent cursor-pointer mr-[20px] w-full relative right-4">
                 <NavigationMenuList>
                   <NavigationMenuItem>
@@ -166,7 +166,7 @@ const Header = () => {
               <li className=" text-[32px] cursor-pointer">Cart (0)</li>
               <li className="w-[32px] h-[32px] md:hidden block"></li>
             </ul>
-            <div className="w-[90%] mx-auto">
+            <div className="w-[90%] mx-auto pb-40">
               <Button3
                 name="Login"
                 bgcolor="bg-secondarygray"
