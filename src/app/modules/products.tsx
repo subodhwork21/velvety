@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProductItem from "./productItem";
+import ProductItem from "../components/productItem";
 const Products = () => {
   return (
     <section className="max-w-[1440px] mx-auto z-20 md:pb-[0px] pb-[64px] relative grid lg:grid-cols-3 grid-cols-1 border-secondary bg-secondarygray">

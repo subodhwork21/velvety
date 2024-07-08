@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button2 } from "./button";
+import { Button2 } from "../components/button";
 const Service = () => {
   return (
     <div className="max-w-[1440px] mx-auto lg:pt-[60px] pt-[64px] pb-[34.3px] lg:pl-[181px] lg:pr-[211px] px-4 bg-secondarygray border-[1px] border-tertiary flex justify-left lg:gap-[181px] gap-[48px] items-center lg:flex-row flex-col">

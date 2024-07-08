@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import SmallProductItem from "./small_productItem";
-import { Button2 } from "./button";
+import SmallProductItem from "../components/small_productItem";
+import { Button2 } from "../components/button";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from "swiper/modules";
 import "swiper/css";

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Hero from "./hero";
-import { Button3 } from "./button";
+import { Button3 } from "../components/button";
 import { useState } from "react";
 import React from "react";
 import {
@@ -166,7 +166,7 @@ const Header = () => {
               <li className=" text-[32px] cursor-pointer">Cart (0)</li>
               <li className="w-[32px] h-[32px] md:hidden block"></li>
             </ul>
-            <div className="w-[90%] mx-auto pb-40">
+            <div className="w-[90%] mx-auto pb-80">
               <Button3
                 name="Login"
                 bgcolor="bg-secondarygray"

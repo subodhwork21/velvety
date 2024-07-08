@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Button1 } from "./button";
+import { Button1 } from "../components/button";
 const Hero = () => {
   return (
     <div className="max-w-[1440px] mx-auto relative md:h-[730px] h-[833px] z-[10]">

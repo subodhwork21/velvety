@@ -1,14 +1,14 @@
 import Image from "next/image";
-import Header from "./components/header";
-import Feature from "./components/feature";
-import Products from "./components/products";
-import AboutUs from "./components/about_us";
-import AllProducts from "./components/all_products";
-import Service from "./components/service";
-import Testimonial from "./components/testimonial";
-import TryOutSection from "./components/tryoutsection";
-import Subscribe from "./components/subscribe";
-import Footer from "./components/footer";
+import Header from "./modules/header";
+import Feature from "./modules/feature";
+import Products from "./modules/products";
+import AboutUs from "./modules/about_us";
+import AllProducts from "./modules/all_products";
+import Service from "./modules/service";
+import Testimonial from "./modules/testimonial";
+import TryOutSection from "./modules/tryoutsection";
+import Subscribe from "./modules/subscribe";
+import Footer from "./modules/footer";
 
 export default function Home() {
   return (

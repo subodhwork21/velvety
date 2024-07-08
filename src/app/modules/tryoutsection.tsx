@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button2 } from "./button";
+import { Button2 } from "../components/button";
 
 const TryOutSection = () => {
   return (
