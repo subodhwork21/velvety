@@ -6,6 +6,11 @@
 
 My role in this project was to implement the front-end development based on a design sourced online. The goal was to translate the design into a clean, responsive, and visually appealing interface. The content is presented seamlessly on one page, offering users a smooth and enjoyable browsing experience.
 
+### Design Reference
+
+The design used in this project was sourced from a publicly available Figma file and does not belong to me. You can find the original design [here](https://github.com/subodhwork21/velvety).
+
+
 ## Features
 
 - **Single-Page Design**: All content is presented on a single page for a streamlined and efficient user experience.
