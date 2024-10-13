@@ -8,7 +8,7 @@ My role in this project was to implement the front-end development based on a de
 
 ### Design Reference
 
-The design used in this project was sourced from a publicly available Figma file and does not belong to me. You can find the original design [here](https://github.com/subodhwork21/velvety).
+The design used in this project was sourced from a publicly available Figma file and does not belong to me. You can find the original design [here](https://www.figma.com/design/GbK2eRPPnQvja14aMQbacf/%5BFREE%5D-Velvety---Beauty-and-Wellness-website-UI-kit-(Community)).
 
 
 ## Features
